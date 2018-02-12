@@ -1,4 +1,4 @@
-#Rest and Spread Operators
+# Rest and Spread Operators
 
 ```
 Many modern programming languages provide the ability for the function to accept a number of parameters. 
