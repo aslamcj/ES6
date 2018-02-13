@@ -86,7 +86,12 @@ console.log(add(1, 1)); // 2
 console.log(add(undefined, 1)); // throws an error
 ```
 
-
+9. Check the following example, wether we can use return statement in function parameters. (ES/ES6)
+```
+var add = new Function("first", "second = first", "return first + second");
+console.log(add(1, 1)); 
+console.log(add(1));
+```
 
 
 
