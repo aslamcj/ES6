@@ -37,3 +37,11 @@ ws.delete(window); // removes window from the set
 ws.has(window); // false, window has been removed
 
 ```
+
+## Map
+The Map object holds key-value pairs. Any value (both objects and primitive values) may be used as either a key or a value.
+
+```
+
+```
+
