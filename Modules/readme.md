@@ -75,3 +75,37 @@ export default api;
 
 ```
 
+## Importing in ES6
+ES6 provides us with various flavors of importing. We can import an entire file:
+
+```
+import 'underscore';
+
+```
+It is important to note that simply importing an entire file will execute all code at the top level of that file.
+
+Similar to Python, we have named imports:
+```
+import { sumTwo, sumThree } from 'math/addition';
+
+```
+We can also rename the named imports:
+
+```
+import {
+    sumTwo as addTwoNumbers,
+    sumThree as sumThreeNumbers
+} from 'math/addition';
+```
+
+In addition, we can import all the things (also called namespace import):
+
+```
+import * as util from 'math/addition';
+```
+Lastly, we can import a list of values from a module:
+
+```
+import * as additionUtil from 'math/addition';
+const { sumTwo, sumThree } = additionUtil;
+```
