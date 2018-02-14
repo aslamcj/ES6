@@ -1,7 +1,7 @@
 
 //Example of structured assignment from object or array:
 
-var letters = [a,b,c],
+var letters = [x,y,z],
     x = letters[0],
     y = letters[1],
     z = letters[2];
